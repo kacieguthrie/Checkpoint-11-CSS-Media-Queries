@@ -1,0 +1,95 @@
+body {
+  font-size: 20px;
+  background-color: #dadada
+
+}
+
+.title h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 200;
+  letter-spacing: 2.2px;
+  padding: 8% 0 7% 0;
+  text-align: center;
+}
+
+/* destination thumbnails */
+.preview {
+  width: 100%;
+  margin-bottom: 5%;
+  height: 300px;
+}
+
+.preview h1 {
+  font-family: serif;
+  padding: 10%;
+  text-align: left;
+}
+
+.baku {
+  background: #fff url(/images/baku.jpg) no-repeat top left;
+  position: relative;
+  background-size: cover;
+}
+
+.london {
+  background: #fff url(/images/london.png) no-repeat top right;
+  position: relative;
+  background-size: cover;
+}
+
+.madrid {
+  background: #fff url(/images/madrid.jpg) no-repeat top left;
+  position: relative;
+  background-size: cover;
+}
+
+.rome {
+  background: #fff url(/images/rome.jpg) no-repeat top left;
+  position: relative;
+  background-size: cover;
+}
+
+/* tablet */
+@media only screen and (min-width: 480px) and (max-width: 1020px) {
+  .container {
+    text-align: center;
+  }
+
+  .title h1{
+    padding: 4%
+  }
+
+  .preview {
+    width: 40%;
+    height: 180px;
+    display: inline-block;
+    margin: 0 8px 20px 8px;
+  }
+
+}
+
+/* desktop */
+@media only screen and (min-width: 1020px) {
+  .container {
+    text-align: center
+  }
+
+  .title h1{
+    padding: 1%
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+
+  .preview {
+    width: 18%;
+    height: 280px;
+    display: inline-block;
+    margin: 0 8px 20px 8px;
+  }
+
+  .preview h1 {
+    font-size: 1.5em;
+  }
+}
