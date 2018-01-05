@@ -28,25 +28,25 @@ body {
 }
 
 .baku {
-  background: #fff url(/images/baku.jpg) no-repeat top left;
+  background: #fff url(../images/baku.jpg) no-repeat top left;
   position: relative;
   background-size: cover;
 }
 
 .london {
-  background: #fff url(/images/london.png) no-repeat top right;
+  background: #fff url(../images/london.png) no-repeat top right;
   position: relative;
   background-size: cover;
 }
 
 .madrid {
-  background: #fff url(/images/madrid.jpg) no-repeat top left;
+  background: #fff url(../images/madrid.jpg) no-repeat top left;
   position: relative;
   background-size: cover;
 }
 
 .rome {
-  background: #fff url(/images/rome.jpg) no-repeat top left;
+  background: #fff url(../images/rome.jpg) no-repeat top left;
   position: relative;
   background-size: cover;
 }
